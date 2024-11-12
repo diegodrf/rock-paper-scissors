@@ -1,4 +1,5 @@
 {
+  "homepage": "https://diegodrf.github.io/rock-paper-scissors",
   "name": "rock-paper-scissors",
   "version": "0.1.0",
   "private": true,
@@ -21,7 +22,9 @@
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html --dist-dir build",
-    "start": "parcel serve src/index.html --public-url / --dist-dir dist"
+    "start": "parcel serve src/index.html --public-url / --dist-dir dist",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -35,6 +38,7 @@
     "@typescript-eslint/parser": "^8.14.0",
     "eslint": "^9.14.0",
     "eslint-plugin-react": "^7.37.2",
+    "gh-pages": "^6.2.0",
     "live-server": "^1.2.2",
     "parcel": "^2.10.3",
     "process": "^0.11.10"
