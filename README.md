@@ -12,7 +12,7 @@ This is the challenge link: [https://www.frontendmentor.io/challenges/rock-paper
 
 ## Live
 
-You can view it here: [https://rock-paper-scissors-5wrrp2kyh-milacerdas-projects.vercel.app](https://rock-paper-scissors-5wrrp2kyh-milacerdas-projects.vercel.app)
+You can view it here: [https://rock-paper-scissors-xi-sand.vercel.app/](https://rock-paper-scissors-xi-sand.vercel.app/)
 
 ## Local
 
