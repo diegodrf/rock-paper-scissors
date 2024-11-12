@@ -1,0 +1,1 @@
+export type ResultType = 'win' | 'lose' | 'draw' | null;

@@ -1,0 +1,56 @@
+@import '_colors';
+
+.modal {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  &.show {
+    display: block;
+  }
+
+  .close {
+    color: $headerOutline;
+    opacity: .4;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+.modal-body {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  align-content: center;
+}
+
+.modal-content {
+  color: $darkText;
+  padding: 20px 30px;
+  align-items: center;
+
+  .modal-title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .modal-content {
+    .modal-title {
+      justify-content: center;
+    }
+  }
+
+  .modal img {
+    width: 100%;
+    height: auto;
+  }
+}

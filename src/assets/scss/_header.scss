@@ -1,0 +1,36 @@
+.box {
+  border: 2px solid hsl(217, 16%, 45%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  margin: auto;
+  max-width: 850px;
+
+  h2 {
+    line-height: .85;
+    font-weight: 700;
+  }
+}
+
+.score {
+  background: #FFF;
+  color: hsl(229, 64%, 46%);
+  border-radius: 5px;
+  text-align: center;
+  margin-right: 20px;
+
+  h1 {
+    color: hsl(251, 12%, 36%);
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  img {
+    height: 60px;
+  }
+}

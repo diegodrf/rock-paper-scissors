@@ -1,0 +1,68 @@
+// Import all of Bootstrap's CSS
+@import 'bootstrap/scss/bootstrap';
+@import '_animations';
+@import '_header';
+@import '_modal';
+@import '_option';
+@import '_result';
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Barlow Semi Condensed', 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100%;
+  min-width: 100%;
+  color: #FFF;
+  background-image: -webkit-radial-gradient(hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+  background-image: -moz-radial-gradient(hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h6 {
+  letter-spacing: 2px;
+  font-size: .8rem;
+  margin-bottom: 0;
+}
+
+main {
+  max-width: 1366px;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.rules {
+  letter-spacing: 2px;
+  border: 2px solid #606e85;
+  border-radius: 10px;
+  padding: 8px 30px;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.step1 {
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+}
