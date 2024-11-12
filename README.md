@@ -4,7 +4,7 @@
 
 ## Welcome! 👋
 
-This was a challenge provided by Frontend Mentor
+This was a challenge provided by Frontend Mentor, I decided to use React to study and practice =)
 
 In the project directory, you can run:
 
