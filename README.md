@@ -6,6 +6,16 @@
 
 This was a challenge provided by Frontend Mentor, I decided to use React to study and practice =)
 
+## Challenge
+
+This is the challenge link: [https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH](https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH)
+
+## Live
+
+You can view it here: [https://rock-paper-scissors-5wrrp2kyh-milacerdas-projects.vercel.app](https://rock-paper-scissors-5wrrp2kyh-milacerdas-projects.vercel.app)
+
+## Local
+
 In the project directory, you can run:
 
 ### `npm start`
